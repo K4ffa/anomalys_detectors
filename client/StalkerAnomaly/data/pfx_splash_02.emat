@@ -1,0 +1,6 @@
+Particle {
+ AlbedoMap "{3DBEB781F135B2A6}StalkerAnomaly/data/pfx_splash_02.edds" 
+ TileU 2
+ TileV 2
+ Emissive 1 1 1 0
+}

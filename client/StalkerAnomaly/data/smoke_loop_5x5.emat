@@ -1,0 +1,6 @@
+Particle {
+ AlbedoMap "{C1B4FA9C9A58B80A}StalkerAnomaly/data/smoke_loop_5x5.edds" 
+ BlendMode Additive_AlphaModulate
+ TileU 5
+ TileV 5
+}

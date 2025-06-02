@@ -1,0 +1,47 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke {
+   ShapeType Box
+   ShapeSize 4 0 4
+   ConeAngle 360 30 0
+   MaxNum 256
+   BirthRate 10
+   BirthRateRND 0
+   Offset 0 0 0
+   Material "{A70F547965C02907}StalkerAnomaly/data/smoke_loop_5x5.emat"
+   SizeMultiplier 2
+   SizeRND 4
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 1
+   VelocityRND 1
+   VelAffect 0
+   AirResistance 0.2
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 1
+   AnimFPS 12
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 4
+   LifeTimeRND 2
+   Color {
+    0 0.2196 0.2196 0.2196 1 0.2196 0.2196 0.2196
+   }
+   Alpha {
+    0 0 0.1248 0.12245 0.75041 0.14966 1 0
+   }
+   Size {
+    0 0 0.12534 0.80272 0.87683 0.79592 1 0
+   }
+  }
+ }
+}

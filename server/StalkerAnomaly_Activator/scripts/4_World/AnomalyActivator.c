@@ -1,0 +1,1 @@
+class AnomalyActivator extends AnimalBase {}

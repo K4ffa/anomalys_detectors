@@ -1,0 +1,123 @@
+EffectDef {
+ Emitors {
+  EmitorDef lightning1 {
+   ShapeType Box
+   ShapeSize 6 3 6
+   ConeAngle 0 0 0
+   MaxNum 32
+   BirthRate 12
+   BirthRateRND 48
+   Offset 0 2 0
+   Material "{A6D674F8E875C3E2}StalkerAnomaly/data/electra/pfx_ligth_6.emat"
+   SizeMultiplier 5
+   SizeRND 2
+   RandomRotDir 0
+   RotMultiplier 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   LifeTime 1
+   Color {
+    0 0.4196 0.4471 1 1 0.4196 0.4471 1
+   }
+   Alpha {
+    0 1 0.3516 1 0.50149 0 1 0
+   }
+   Size {
+    0 0.81646 0.06399 0.96835 1 1
+   }
+   EffectTime 3
+   Repeat 0
+   BRateMast {
+    0 1 0.16115 1 0.17254 0 1 0
+   }
+  }
+  EmitorDef lightning2 {
+   ShapeType Box
+   ShapeSize 6 0 6
+   ConeAngle 0 0 0
+   MaxNum 128
+   BirthRate 86
+   BirthRateRND 64
+   Offset 0 1 0
+   Material "{6095FC1554581099}StalkerAnomaly/data/electra/lightning.emat"
+   SizeRND 2
+   RandomAngle 1
+   Velocity 0
+   VelAffect 0
+   Spring 0
+   AnimFPS 12
+   LifeTime 1
+   Color {
+    0 0.4196 0.4471 1 0.7895 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 0.39881 1 0.59957 0 1 0
+   }
+   EffectTime 3
+   Repeat 0
+   BRateMast {
+    0 1 0.2344 1 0.28269 0 1 0
+   }
+  }
+  EmitorDef lightning3 {
+   ShapeType Box
+   ShapeSize 6 2 6
+   ConeAngle 0 0 0
+   MaxNum 128
+   BirthRate 64
+   BirthRateRND 86
+   Offset 0 1 0
+   Material "{A6D674F8E875C3E2}StalkerAnomaly/data/electra/pfx_ligth_6.emat"
+   SizeRND 2
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0
+   VelAffect 0
+   Spring 0
+   AnimFPS 12
+   LifeTime 0.2
+   Color {
+    0 0.4196 0.4471 1 1 1 1 1
+   }
+   Alpha {
+    0 1 0.88542 1 1 0
+   }
+   EffectTime 3
+   Repeat 0
+   SizeMast {
+    0 1 0.3337 1 0.70049 0.29932 1 0
+   }
+   BRateMast {
+    0 1 0.26637 1 0.33185 0 1 0
+   }
+  }
+  EmitorDef sparkles {
+   ShapeType Box
+   ShapeSize 3 2 3
+   ConeAngle 0 0 0
+   MaxNum 40
+   BirthRate 20
+   Offset 0 1 0
+   Material "{D7194C4E05B5A969}StalkerAnomaly/data/electra/pfx_lightning_02.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.02
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0.3
+   AirResistance 0
+   AnimOnce 0
+   AnimFPS 20
+   LifetimeByAnim 1
+   LifeTime 0.4
+   LifeTimeRND 0.2
+   Alpha {
+    0 0 0.499 1 1 0
+   }
+   EffectTime 5
+  }
+ }
+}

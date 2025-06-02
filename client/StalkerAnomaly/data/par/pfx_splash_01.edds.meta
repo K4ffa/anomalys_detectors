@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B1FB19491E33E066}StalkerAnomaly/data/par/pfx_splash_01.edds"
+ Author "nikron-pc"
+ ChangeDate -137582042
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "pfx_splash_01.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass LINUX : PC {
+  }
+ }
+}

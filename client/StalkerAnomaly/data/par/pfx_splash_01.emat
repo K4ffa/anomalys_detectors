@@ -1,0 +1,4 @@
+Particle {
+ AlbedoMap "{B1FB19491E33E066}StalkerAnomaly/data/par/pfx_splash_01.edds" 
+ Emissive 1 1 1 0
+}

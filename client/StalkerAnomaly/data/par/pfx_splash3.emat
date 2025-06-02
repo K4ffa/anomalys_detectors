@@ -1,0 +1,6 @@
+Particle {
+ AlbedoMap "{BBE52086B9D350A5}StalkerAnomaly/data/par/pfx_splash3.edds" 
+ Emissive 1 1 1 0
+ AlphaTest 30
+ Softness 2
+}

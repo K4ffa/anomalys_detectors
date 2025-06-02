@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "{096D55B9DBECC30B}StalkerAnomaly/data/teleport/teleport_1.edds" 
+ BlendMode Additive_AlphaModulate
+ Emissive 1 1 1 0
+}

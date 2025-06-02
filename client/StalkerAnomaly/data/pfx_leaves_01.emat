@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "{664A5401E7800745}StalkerAnomaly/data/pfx_leaves_01.edds" 
+ TileU 2
+ TileV 2
+}

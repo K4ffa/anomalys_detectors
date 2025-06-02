@@ -1,0 +1,94 @@
+EffectDef {
+ Emitors {
+  EmitorDef sphere {
+   ShapeType Box
+   ShapeSize 2.5 0 2.5
+   ConeAngle 0 0 0
+   MaxNum 2
+   BirthRate 4
+   BirthRateRND 0
+   Offset 0 0.75 0
+   Material "{2A2EA2439D8AE3B9}StalkerAnomaly/data/electra/pfx_anomaly_8.emat"
+   SizeMultiplier 2
+   SizeRND 1
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 24
+   LifetimeByAnim 0
+   LifeTime 0.2
+   LifeTimeRND 0
+   Alpha {
+    0 0.20408 0.498 1 1 0.14286
+   }
+   Size {
+    0 0 1 1
+   }
+   EffectTime 5
+  }
+  EmitorDef lightnings {
+   ShapeType Box
+   ShapeSize 3 3 0
+   ConeAngle 0 0 0
+   MaxNum 6
+   BirthRate 15
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0.01 0
+   Angles 0 90 0
+   LocalTransform 0
+   Material "{A6D674F8E875C3E2}StalkerAnomaly/data/electra/pfx_ligth_6.emat"
+   SizeMultiplier 3
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   BillboardingType None
+   Velocity 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 0
+   RandomFrame 0
+   LifeTime 0.4
+   LifeTimeRND 0
+   Color {
+    0 0.4196 0.4471 1 1 0.4196 0.4471 1
+   }
+   Alpha {
+    0 0 0.50399 1 1 0
+   }
+   Size {
+    0 0 1 1
+   }
+   EffectTime 5
+  }
+  EmitorDef sparkles {
+   ShapeType Box
+   ShapeSize 3 2 3
+   ConeAngle 0 0 0
+   MaxNum 40
+   BirthRate 20
+   Offset 0 1 0
+   Material "{D7194C4E05B5A969}StalkerAnomaly/data/electra/pfx_lightning_02.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.02
+   RandomRotDir 0
+   RandomAngle 1
+   Velocity 0.3
+   AirResistance 0
+   AnimOnce 0
+   AnimFPS 20
+   LifetimeByAnim 1
+   LifeTime 0.4
+   LifeTimeRND 0.2
+   Alpha {
+    0 0 0.499 1 1 0
+   }
+   EffectTime 5
+  }
+ }
+}

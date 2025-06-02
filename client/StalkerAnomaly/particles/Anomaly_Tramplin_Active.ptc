@@ -1,0 +1,135 @@
+EffectDef {
+ Emitors {
+  EmitorDef leaves {
+   ShapeType Point
+   ShapeSize 5 0 5
+   ConeAngle 360 150 100
+   MaxNum 24
+   BirthRate 6000
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{00F1FAE418189648}StalkerAnomaly/data/pfx_leaves_01.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.03
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 15
+   VelocityRND 5
+   VelAffect 0
+   AirResistance 3
+   AirResistanceRND 2
+   GravityMultiply 0.3
+   GravityMultiplyRND 0.3
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 8
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 3
+   LifeTimeRND 0
+   Alpha {
+    0 1 0.5 1 1 0
+   }
+   Size {
+    0 1 0.75249 1 1 0
+   }
+   EffectTime 3
+   Repeat 0
+  }
+  EmitorDef leaves_up {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 100 0
+   MaxNum 24
+   BirthRate 6000
+   BirthRateRND 0
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{00F1FAE418189648}StalkerAnomaly/data/pfx_leaves_01.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.03
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 15
+   VelocityRND 5
+   VelAffect 0
+   AirResistance 3
+   AirResistanceRND 4
+   GravityMultiply 0.3
+   GravityMultiplyRND 0.3
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 8
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 3
+   LifeTimeRND 0
+   Alpha {
+    0 1 0.50299 1 1 0
+   }
+   Size {
+    0 1 0.75349 1 1 0
+   }
+   EffectTime 3
+   Repeat 0
+  }
+  EmitorDef smoke {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 200 180
+   MaxNum 128
+   BirthRate 6000
+   BirthRateRND 0
+   Offset 0 1 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{CA3CE0CA7D321964}StalkerAnomaly/data/cloud_01_b_df.emat"
+   SizeMultiplier 2
+   SizeRND 0
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 15
+   VelocityRND 0
+   VelAffect 0
+   AirResistance 4
+   AirResistanceRND 0.75
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 12
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 3
+   LifeTimeRND 0
+   Color {
+    0 0.1686 0.1765 0.1765 1 0.1725 0.1765 0.1765
+   }
+   Alpha {
+    0 0 0.02695 0.09524 1 0
+   }
+   EffectTime 3
+   Repeat 0
+   ColorMast {
+    0 0.1686 0.1765 0.1765 1 0.1686 0.1765 0.1765
+   }
+  }
+ }
+}

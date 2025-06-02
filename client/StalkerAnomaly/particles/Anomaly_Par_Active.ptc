@@ -1,0 +1,103 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke1 {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 20 0
+   MaxNum 128
+   BirthRate 64
+   BirthRateRND 6
+   Offset 0 0 0
+   Material "{46B6F3BB3CA6F3A1}StalkerAnomaly/data/par/cloud_01_b_df_PAR.emat"
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 1
+   RotMultiplier 100
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 10
+   VelocityRND 0
+   VelAffect 0
+   AirResistance 1
+   AirResistanceRND 0.5
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 0.5
+   LifeTimeRND 0.2
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0.5034 0.7505 0.5034 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 11
+   Repeat 0
+   BRateMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef smoke {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 20 0
+   MaxNum 128
+   BirthRate 64
+   BirthRateRND 6
+   Offset 0 0 0
+   Material "{B4A8CA9F7E27006E}StalkerAnomaly/data/par/smoke_loop_5x5_PAR.emat"
+   SizeMultiplier 0.5
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 100
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 10
+   VelocityRND 0
+   VelAffect 0
+   AirResistance 1
+   AirResistanceRND 0.5
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 0.2
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 11
+   Repeat 0
+  }
+ }
+}

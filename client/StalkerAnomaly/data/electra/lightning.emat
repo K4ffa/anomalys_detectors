@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{062E52F0ABC08194}StalkerAnomaly/data/electra/lightning.edds" 
+ BlendMode Additive_AlphaModulate
+ TileU 4
+ TileV 4
+ Emissive 1 1 1 0
+}

@@ -1,0 +1,5 @@
+Particle {
+ AlbedoMap "{C06DDA1D17ED52EF}StalkerAnomaly/data/electra/pfx_ligth_6.edds" 
+ BlendMode Additive_AlphaModulate
+ Emissive 1 1 1 0
+}

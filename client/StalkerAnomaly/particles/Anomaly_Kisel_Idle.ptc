@@ -1,0 +1,143 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke {
+   ShapeType Box
+   ShapeSize 4 0 4
+   ConeAngle 0 0 0
+   MaxNum 30
+   BirthRate 1
+   BirthRateRND 5
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{CA3CE0CA7D321964}StalkerAnomaly/data/cloud_01_b_df.emat"
+   SizeMultiplier 2.5
+   SizeRND 0.5
+   RandomRotDir 1
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0.05
+   AirResistance 0
+   GravityMultiply 0
+   Spring 0
+   Wind 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 6
+   LifeTimeRND 4
+   Color {
+    0 0 0.6314 0.0824 1 0 0.6314 0.0824
+   }
+   Alpha {
+    0 0.04082 1 0.06122
+   }
+  }
+  EmitorDef bulb {
+   ShapeType Box
+   ShapeSize 2 2 0
+   ConeAngle 360 120 360
+   MaxNum 8
+   BirthRate 0
+   BirthRateRND 2
+   BirthRateVel 0
+   Offset 0 0.01 0
+   Angles 0 90 0
+   LocalTransform 0
+   Material "{E9220A7D576E7EF5}StalkerAnomaly/data/jelly/pfx_studen_bulb.emat"
+   SizeMultiplier 1
+   SizeRND 0
+   RandomRotDir 0
+   RotMultiplier 0
+   RandomAngle 0
+   BillboardingType None
+   Velocity 0
+   Spring 0
+   AnimOnce 0
+   LifeTime 8
+   LifeTimeRND 2
+   Color {
+    0 0 0.6314 0.0824 1 0 0.6314 0.0824
+   }
+   Alpha {
+    0 0.17687 0.29441 0.78912 0.74251 0.63265 1 0.17687
+   }
+   Size {
+    0 0 1 0.66667
+   }
+   EffectTime 10
+   Repeat 1
+   ColorMast {
+    0 0 0.6314 0.0824 1 0 0.6314 0.0824
+   }
+  }
+  EmitorDef waterwave {
+   ShapeType Box
+   ShapeSize 3 3 0
+   ConeAngle 360 120 360
+   MaxNum 20
+   BirthRate 1
+   BirthRateRND 3
+   BirthRateVel 0
+   Offset 0 0.01 0
+   Angles 0 90 0
+   LocalTransform 0
+   Material "{4C590AB8E1C0FF16}StalkerAnomaly/data/water_effect_2.emat"
+   SizeMultiplier 0.5
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   RandomAngle 0
+   BillboardingType None
+   Velocity 0
+   AnimOnce 0
+   AnimFPS 16
+   LifetimeByAnim 1
+   RandomFrame 0
+   LifeTime 2
+   LifeTimeRND 2
+   Color {
+    0 0 0.2235 0.0235 1 0 0.2235 0.0235
+   }
+   Alpha {
+    0 0 0.21058 0.91837 0.73253 0.63265 1 0
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 10
+   ColorMast {
+    0 1 1 1 1 1 1 1
+   }
+  }
+  EmitorDef bubbles {
+   ShapeType Box
+   ShapeSize 3 0 3
+   ConeAngle 0 0 0
+   MaxNum 24
+   BirthRate 5
+   BirthRateRND 2
+   Offset 0 0.05 0
+   Material "{5B0519640EAD23AB}StalkerAnomaly/data/pfx_splash_02.emat"
+   SizeMultiplier 0.1
+   SizeRND 0.1
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.2
+   AirResistance 0
+   Wind 0
+   AnimOnce 1
+   AnimFPS 5
+   LifetimeByAnim 1
+   RandomFrame 0
+   LifeTime 0.6
+   LifeTimeRND 0.4
+   Color {
+    0 0 0.6314 0.0824 1 0 0.6314 0.0824
+   }
+   Alpha {
+    0 0.68027 1 0.29252
+   }
+  }
+ }
+}

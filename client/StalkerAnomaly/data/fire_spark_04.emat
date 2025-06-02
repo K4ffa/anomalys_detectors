@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{13E78363C2DA8520}StalkerAnomaly/data/fire_spark_04.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ TileU 2
+ TileV 2
+}

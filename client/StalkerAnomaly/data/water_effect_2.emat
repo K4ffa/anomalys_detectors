@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{2AE2A45D1E586E1B}StalkerAnomaly/data/water_effect_2.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ TileU 5
+ TileV 6
+}

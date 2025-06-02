@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{01A7605DA2CB8144}StalkerAnomaly/data/pfx_bubble_water.emat"
+ Author "nikron-pc"
+ ChangeDate -1623414234
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+Particle {
+ AlbedoMap "{C0CC8FD74C72BDBA}StalkerAnomaly/data/jarka/pfx_flame2_trail.edds" 
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+ TileU 6
+ TileV 8
+}

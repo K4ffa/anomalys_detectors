@@ -1,0 +1,6 @@
+Particle {
+ AlbedoMap "{1ED72E6B3475A328}StalkerAnomaly/data/teleport/sphere_effect_3.edds" 
+ Color 0.5647 0.5647 0.5647 1
+ Emissive 1 1 1 0
+ BlendMode Additive_AlphaModulate
+}

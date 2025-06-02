@@ -1,0 +1,9 @@
+Particle {
+ AlbedoMap "{AC874E2F82AA8869}StalkerAnomaly/data/cloud_01_b_df.edds" 
+ Emissive 1 1 1 0
+ NormalMap "{E3D0FE7813D2DBBE}StalkerAnomaly/data/cloud_01_b_nm.edds" 
+ TileU 2
+ TileV 2
+ Softness 2
+ CameraBlendFar 0.001
+}

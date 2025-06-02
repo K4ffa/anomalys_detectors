@@ -1,0 +1,96 @@
+EffectDef {
+ Emitors {
+  EmitorDef sparks {
+   ShapeType Box
+   ShapeSize 4 0 4
+   ConeAngle 360 60 0
+   MaxNum 128
+   BirthRate 48
+   BirthRateRND 32
+   Offset 0 0 0
+   Material "{755C2D863D42142D}StalkerAnomaly/data/fire_spark_04.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.02
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 1
+   RandomAngle 0
+   BillboardingType Full
+   Velocity 3
+   VelocityRND 2
+   VelAffect 0
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 1 0.4784 0.1765 1 1 0.4784 0.1765
+   }
+   Alpha {
+    0 0 0.06088 1 0.94311 1 1 0
+   }
+   Size {
+    0 0.06803 0.13174 1 0.87425 1 1 0
+   }
+   EffectTime 10
+   Repeat 1
+  }
+  EmitorDef flame {
+   ShapeType Point
+   ConeAngle 0 0 0
+   MaxNum 128
+   BirthRate 48
+   BirthRateRND 32
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{A6772132B3EA2CB7}StalkerAnomaly/data/jarka/pfx_flame2_trail.emat"
+   CenterX 0
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 1
+   SizeRND 0.5
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 0
+   Sort 0
+   BillboardingType Full
+   Velocity 7
+   VelocityRND 0
+   VelAffect 0
+   AirResistance 0
+   GravityMultiply 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 0.5
+   LifeTimeRND 0.3
+   Alpha {
+    0 1 0.74932 1 1 0
+   }
+   Size {
+    0 1 1 0.34694
+   }
+   EffectTime 11
+   Repeat 0
+   VelocityMast {
+    0 1 0.90884 1 0.95551 0 1 0
+   }
+  }
+ }
+}

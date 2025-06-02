@@ -1,0 +1,4 @@
+Particle {
+ AlbedoMap "{8F99A498A8F6EFF8}StalkerAnomaly/data/jelly/pfx_studen_bulb.edds" 
+ Emissive 1 1 1 0
+}

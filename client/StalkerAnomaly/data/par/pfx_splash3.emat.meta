@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DD5E8E63464BC1A8}StalkerAnomaly/data/par/pfx_splash3.emat"
+ Author "nikron-pc"
+ ChangeDate -1009472986
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

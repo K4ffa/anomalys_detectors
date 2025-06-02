@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{671CCEB85D531049}StalkerAnomaly/data/pfx_bubble_water.edds"
+ Author "nikron-pc"
+ ChangeDate -1858295258
+ Configurations {
+  DDSResourceClass PC {
+   SourceFile "pfx_bubble_water.dds"
+  }
+  DDSResourceClass XBOX_ONE : PC {
+  }
+  DDSResourceClass PS4 : PC {
+  }
+  DDSResourceClass LINUX : PC {
+  }
+ }
+}

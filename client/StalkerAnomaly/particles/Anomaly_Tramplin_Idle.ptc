@@ -1,0 +1,45 @@
+EffectDef {
+ Emitors {
+  EmitorDef leaves {
+   ShapeType Box
+   ShapeSize 4 2 4
+   ConeAngle 0 0 0
+   MaxNum 32
+   BirthRate 0
+   BirthRateRND 16
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{00F1FAE418189648}StalkerAnomaly/data/pfx_leaves_01.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.05
+   RandomRotDir 0
+   RotMultiplier 0
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 1
+   BillboardingType Full
+   Velocity 0.1
+   VelocityRND 0.4
+   VelAffect 0
+   AirResistance 0.1
+   AirResistanceRND 0
+   GravityMultiply 0
+   Restitution 0
+   Spring 0.0005
+   Wind 0
+   AnimOnce 0
+   AnimFPS 4
+   LifetimeByAnim 0
+   RandomFrame 0
+   LifeTime 3
+   LifeTimeRND 1.5
+   Alpha {
+    0 0 0.12375 1 0.87625 1 1 0
+   }
+   Size {
+    0 0 0.12575 1 0.87824 1 1 0
+   }
+  }
+ }
+}
