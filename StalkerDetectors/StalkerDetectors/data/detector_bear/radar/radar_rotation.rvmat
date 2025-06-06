@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: data\detector_bear\radar\radar_rotation.rvmat
+//Produced from mikero's Dos Tools Dll version 9.10
+//https://mikero.bytex.digital/Downloads
+//'now' is Mon Jun 02 15:08:58 2025 : 'file' last modified on Thu Mar 04 08:15:02 2021
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {1,1,1,1};
+diffuse[] = {0,0,0,0};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {1,1,1,1};
+specular[] = {0,0,0,0};
+specularPower = 1;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
